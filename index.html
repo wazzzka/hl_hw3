@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+        function getNumber(promptText) {
+            return parseInt(prompt(promptText));
+        }
+
+        const firstNum = getNumber('Please enter the first number');
+        const secondNum = getNumber('Please enter the second number');
+
+        const sum = firstNum + secondNum;
+        const difference = firstNum - secondNum;
+        const multiplication = firstNum * secondNum;
+        const division = firstNum / secondNum;
+
+        alert(`
+        ${firstNum}+${secondNum}=${sum} \n
+        ${firstNum}-${secondNum}=${difference} \n 
+        ${firstNum}*${secondNum}=${multiplication} \n 
+        ${firstNum}/${secondNum}=${division}`);
+    </script>
+    <title>HW_3</title>
+</head>
+
+<body>
+
+</body>
+
+</html>
